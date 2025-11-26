@@ -108,35 +108,157 @@
             return `https://via.placeholder.com/32x32/667eea/ffffff?text=${teamName.charAt(0)}`;
         };
 
-        // Normalize team names for matching
-        const normalizeTeamName = (name) => {
-            if (!name) return '';
-            
-            const mappings = {
-                'Connecticut': 'UConn',
-                'Brigham Young': 'BYU',
-                'Southern California': 'USC',
-                'Louisiana State': 'LSU',
-                'Southern Methodist': 'SMU',
-                'North Carolina State': 'NC State',
-                'Saint Mary\'s College of California': 'Saint Mary\'s (CA)',
-                'St. Mary\'s': 'Saint Mary\'s (CA)',
-                'Miami (Florida)': 'Miami (FL)',
-                'Miami (Ohio)': 'Miami (OH)',
-            };
-            
-            let normalized = name.trim();
-            
-            for (const [key, value] of Object.entries(mappings)) {
-                if (normalized.toLowerCase().includes(key.toLowerCase())) {
-                    return value;
-                }
+        // Comprehensive team name mapping: Our names -> ESPN names
+        const TEAM_NAME_MAP = {
+            // Direct mappings to ESPN names
+            'Connecticut': 'UConn',
+            'Brigham Young': 'BYU',
+            'Southern California': 'USC',
+            'Louisiana State': 'LSU',
+            'Southern Methodist': 'SMU',
+            'Virginia Commonwealth': 'VCU',
+            'Saint Mary\'s (CA)': 'Saint Mary\'s',
+            'St. John\'s (NY)': 'St. John\'s',
+            'Miami (FL)': 'Miami',
+            'Miami (OH)': 'Miami (OH)',
+            'UC San Diego': 'UC San Diego',
+            'UC Irvine': 'UC Irvine',
+            'UC Santa Barbara': 'UC Santa Barbara',
+            'SIU Edwardsville': 'SIU Edwardsville',
+            'UNC Wilmington': 'UNC Wilmington',
+            'Bethune-Cookman': 'Bethune-Cookman',
+            'California Baptist': 'Cal Baptist',
+            'College of Charleston': 'Charleston',
+            'East Tennessee State': 'ETSU',
+            'Stephen F. Austin': 'Stephen F. Austin',
+            'Arkansas State': 'Arkansas State',
+            'Boise State': 'Boise State',
+            'Boston University': 'Boston University',
+            'Bowling Green': 'Bowling Green',
+            'Cleveland State': 'Cleveland State',
+            'Colorado State': 'Colorado State',
+            'Florida Atlantic': 'FAU',
+            'George Mason': 'George Mason',
+            'George Washington': 'George Washington',
+            'Grand Canyon': 'Grand Canyon',
+            'Illinois State': 'Illinois State',
+            'Iowa State': 'Iowa State',
+            'Jacksonville State': 'Jacksonville State',
+            'James Madison': 'James Madison',
+            'Kennesaw State': 'Kennesaw State',
+            'Kent State': 'Kent State',
+            'Little Rock': 'Little Rock',
+            'Loyola Marymount': 'Loyola Marymount',
+            'McNeese State': 'McNeese',
+            'Michigan State': 'Michigan State',
+            'Montana State': 'Montana State',
+            'Murray State': 'Murray State',
+            'NC State': 'NC State',
+            'Norfolk State': 'Norfolk State',
+            'North Carolina': 'North Carolina',
+            'North Texas': 'North Texas',
+            'Northern Colorado': 'Northern Colorado',
+            'Northern Iowa': 'Northern Iowa',
+            'Northern Kentucky': 'Northern Kentucky',
+            'Ohio State': 'Ohio State',
+            'Oklahoma State': 'Oklahoma State',
+            'Oregon State': 'Oregon State',
+            'Sam Houston': 'Sam Houston State',
+            'San Diego State': 'San Diego State',
+            'San Francisco': 'San Francisco',
+            'Santa Clara': 'Santa Clara',
+            'South Alabama': 'South Alabama',
+            'South Dakota State': 'South Dakota State',
+            'South Florida': 'South Florida',
+            'St. Bonaventure': 'St. Bonaventure',
+            'St. Thomas': 'St. Thomas (MN)',
+            'Tarleton State': 'Tarleton State',
+            'Texas Tech': 'Texas Tech',
+            'Utah State': 'Utah State',
+            'Utah Valley': 'Utah Valley',
+            'Virginia Tech': 'Virginia Tech',
+            'West Virginia': 'West Virginia',
+            'Wichita State': 'Wichita State',
+            'Wright State': 'Wright State',
+            'Youngstown State': 'Youngstown State',
+            'High Point': 'High Point',
+            'Saint Louis': 'Saint Louis',
+            // Teams that match exactly
+            'Akron': 'Akron',
+            'Alabama': 'Alabama',
+            'Arizona': 'Arizona',
+            'Arkansas': 'Arkansas',
+            'Auburn': 'Auburn',
+            'Baylor': 'Baylor',
+            'Belmont': 'Belmont',
+            'Bradley': 'Bradley',
+            'Buffalo': 'Buffalo',
+            'Chattanooga': 'Chattanooga',
+            'Cincinnati': 'Cincinnati',
+            'Clemson': 'Clemson',
+            'Colgate': 'Colgate',
+            'Cornell': 'Cornell',
+            'Creighton': 'Creighton',
+            'Dayton': 'Dayton',
+            'Duke': 'Duke',
+            'Florida': 'Florida',
+            'Furman': 'Furman',
+            'Georgia': 'Georgia',
+            'Gonzaga': 'Gonzaga',
+            'Hawaii': 'Hawai\'i',
+            'Houston': 'Houston',
+            'Idaho': 'Idaho',
+            'Illinois': 'Illinois',
+            'Indiana': 'Indiana',
+            'Iona': 'Iona',
+            'Iowa': 'Iowa',
+            'Kansas': 'Kansas',
+            'Kentucky': 'Kentucky',
+            'Liberty': 'Liberty',
+            'Lipscomb': 'Lipscomb',
+            'Louisville': 'Louisville',
+            'Maine': 'Maine',
+            'Marist': 'Marist',
+            'Marquette': 'Marquette',
+            'Marshall': 'Marshall',
+            'Maryland': 'Maryland',
+            'Memphis': 'Memphis',
+            'Merrimack': 'Merrimack',
+            'Michigan': 'Michigan',
+            'Mississippi': 'Ole Miss',
+            'Missouri': 'Missouri',
+            'Montana': 'Montana',
+            'Navy': 'Navy',
+            'Nevada': 'Nevada',
+            'New Mexico': 'New Mexico',
+            'Ohio': 'Ohio',
+            'Oregon': 'Oregon',
+            'Princeton': 'Princeton',
+            'Purdue': 'Purdue',
+            'Quinnipiac': 'Quinnipiac',
+            'Radford': 'Radford',
+            'Samford': 'Samford',
+            'Siena': 'Siena',
+            'Tennessee': 'Tennessee',
+            'Toledo': 'Toledo',
+            'Towson': 'Towson',
+            'Troy': 'Troy',
+            'UCLA': 'UCLA',
+            'Vanderbilt': 'Vanderbilt',
+            'Villanova': 'Villanova',
+            'Virginia': 'Virginia',
+            'Wisconsin': 'Wisconsin',
+            'Yale': 'Yale'
+        };
+
+        const normalizeTeamName = (ourName, espnName) => {
+            // If we have a direct mapping, use it
+            if (TEAM_NAME_MAP[ourName]) {
+                return TEAM_NAME_MAP[ourName];
             }
             
-            normalized = normalized.replace(/\s+State$/i, ' St.');
-            normalized = normalized.replace(/\(.*?\)/g, '').trim();
-            
-            return normalized;
+            // Otherwise return as-is
+            return ourName;
         };
 
         // Draft data - participants and their teams
@@ -242,17 +364,19 @@
                     let notFound = [];
                     
                     allOurTeams.forEach(ourTeam => {
-                        // Try exact match
-                        if (records[ourTeam]) {
-                            matchedRecords[ourTeam] = records[ourTeam];
+                        // Get the ESPN name for this team
+                        const espnTeamName = normalizeTeamName(ourTeam);
+                        
+                        // Try direct lookup with ESPN name
+                        if (records[espnTeamName]) {
+                            matchedRecords[ourTeam] = records[espnTeamName];
                             matchedCount++;
                         } else {
-                            // Try normalized match
-                            const normalized = normalizeTeamName(ourTeam);
+                            // Try case-insensitive match
                             let found = false;
                             
                             for (const [espnName, espnRecord] of Object.entries(records)) {
-                                if (normalizeTeamName(espnName).toLowerCase() === normalized.toLowerCase()) {
+                                if (espnName.toLowerCase() === espnTeamName.toLowerCase()) {
                                     matchedRecords[ourTeam] = espnRecord;
                                     matchedCount++;
                                     found = true;

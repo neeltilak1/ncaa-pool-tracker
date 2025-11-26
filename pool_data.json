@@ -1,0 +1,1991 @@
+{
+  "team_records": {
+    "Abilene Christian": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Air Force": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Akron": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Alabama": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Alabama A&M": {
+      "wins": 3,
+      "losses": 1,
+      "games": 4
+    },
+    "Alabama State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Albany (NY)": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Alcorn State": {
+      "wins": 0,
+      "losses": 7,
+      "games": 7
+    },
+    "American": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Appalachian State": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Arizona": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Arizona State": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Arkansas": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Arkansas State": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Arkansas-Pine Bluff": {
+      "wins": 0,
+      "losses": 8,
+      "games": 8
+    },
+    "Army": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Auburn": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Austin Peay": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Ball State": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Baylor": {
+      "wins": 4,
+      "losses": 0,
+      "games": 4
+    },
+    "Bellarmine": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Belmont": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Bethune-Cookman": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Binghamton": {
+      "wins": 2,
+      "losses": 6,
+      "games": 8
+    },
+    "Boise State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Boston College": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Boston University": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Bowling Green": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Bradley": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Brigham Young": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Brown": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Bryant": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Bucknell": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Buffalo": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Butler": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Cal Poly": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Cal State Bakersfield": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Cal State Fullerton": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Cal State Northridge": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "California": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "California Baptist": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Campbell": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Canisius": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Central Arkansas": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Central Connecticut State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Central Michigan": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Charleston Southern": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Charlotte": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Chattanooga": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Chicago State": {
+      "wins": 0,
+      "losses": 6,
+      "games": 6
+    },
+    "Cincinnati": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Clemson": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Cleveland State": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Coastal Carolina": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Colgate": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "College of Charleston": {
+      "wins": 4,
+      "losses": 4,
+      "games": 8
+    },
+    "Colorado": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Colorado State": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Columbia": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Connecticut": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Coppin State": {
+      "wins": 1,
+      "losses": 7,
+      "games": 8
+    },
+    "Cornell": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Creighton": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Dartmouth": {
+      "wins": 1,
+      "losses": 3,
+      "games": 4
+    },
+    "Davidson": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Dayton": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Delaware": {
+      "wins": 1,
+      "losses": 4,
+      "games": 5
+    },
+    "Delaware State": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Denver": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "DePaul": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Detroit Mercy": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Drake": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Drexel": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Duke": {
+      "wins": 7,
+      "losses": 0,
+      "games": 7
+    },
+    "Duquesne": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "East Carolina": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "East Tennessee State": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "East Texas A&M": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Eastern Illinois": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Eastern Kentucky": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Eastern Michigan": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Eastern Washington": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Elon": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Evansville": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "Fairfield": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "FDU": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Florida": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Florida A&M": {
+      "wins": 0,
+      "losses": 4,
+      "games": 4
+    },
+    "Florida Atlantic": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Florida Gulf Coast": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Florida International": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Florida State": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Fordham": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Fresno State": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Furman": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Gardner-Webb": {
+      "wins": 0,
+      "losses": 6,
+      "games": 6
+    },
+    "George Mason": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "George Washington": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Georgetown": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Georgia": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Georgia Southern": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Georgia State": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Georgia Tech": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Gonzaga": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Grambling": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Grand Canyon": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Green Bay": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "Hampton": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Harvard": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Hawaii": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "High Point": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Hofstra": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Holy Cross": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Houston": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Houston Christian": {
+      "wins": 3,
+      "losses": 1,
+      "games": 4
+    },
+    "Howard": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Idaho": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Idaho State": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Illinois": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Illinois State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Illinois-Chicago": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Incarnate Word": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Indiana": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Indiana State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Iona": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Iowa": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Iowa State": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "IU Indy": {
+      "wins": 2,
+      "losses": 6,
+      "games": 8
+    },
+    "Jackson State": {
+      "wins": 0,
+      "losses": 6,
+      "games": 6
+    },
+    "Jacksonville": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Jacksonville State": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "James Madison": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Kansas": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Kansas City": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Kansas State": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Kennesaw State": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Kent State": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Kentucky": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "La Salle": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Lafayette": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Lamar": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Le Moyne": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Lehigh": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Liberty": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Lindenwood": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Lipscomb": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Little Rock": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Long Beach State": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Long Island University": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Longwood": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Louisiana": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Louisiana State": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Louisiana Tech": {
+      "wins": 2,
+      "losses": 2,
+      "games": 4
+    },
+    "Louisiana-Monroe": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Louisville": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Loyola (IL)": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Loyola (MD)": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Loyola Marymount": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Maine": {
+      "wins": 0,
+      "losses": 6,
+      "games": 6
+    },
+    "Manhattan": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Marist": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Marquette": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Marshall": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Maryland": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Maryland-Baltimore County": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Maryland-Eastern Shore": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "Massachusetts": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Massachusetts-Lowell": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "McNeese State": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Memphis": {
+      "wins": 1,
+      "losses": 4,
+      "games": 5
+    },
+    "Mercer": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Mercyhurst": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Merrimack": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Miami (FL)": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Miami (OH)": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Michigan": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Michigan State": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Middle Tennessee": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Milwaukee": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Minnesota": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Mississippi": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Mississippi State": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Mississippi Valley State": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Missouri": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Missouri State": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Monmouth": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Montana": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Montana State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Morehead State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Morgan State": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Mount St. Mary's": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Murray State": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Navy": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "NC State": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Nebraska": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Nevada": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Nevada-Las Vegas": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "New Hampshire": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "New Haven": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "New Mexico": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "New Mexico State": {
+      "wins": 4,
+      "losses": 0,
+      "games": 4
+    },
+    "New Orleans": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Niagara": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Nicholls State": {
+      "wins": 0,
+      "losses": 5,
+      "games": 5
+    },
+    "NJIT": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Norfolk State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "North Alabama": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "North Carolina": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "North Carolina A&T": {
+      "wins": 3,
+      "losses": 1,
+      "games": 4
+    },
+    "North Carolina Central": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "North Dakota": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "North Dakota State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "North Florida": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "North Texas": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Northeastern": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Northern Arizona": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Northern Colorado": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Northern Illinois": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Northern Iowa": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Northern Kentucky": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Northwestern": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Northwestern State": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Notre Dame": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Oakland": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Ohio": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Ohio State": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Oklahoma": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Oklahoma State": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Old Dominion": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Omaha": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Oral Roberts": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Oregon": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Oregon State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Pacific": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Penn State": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Pennsylvania": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Pepperdine": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Pittsburgh": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Portland": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Portland State": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Prairie View": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Presbyterian": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "Princeton": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Providence": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Purdue": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Purdue Fort Wayne": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Queens (NC)": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Quinnipiac": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Radford": {
+      "wins": 2,
+      "losses": 6,
+      "games": 8
+    },
+    "Rhode Island": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Rice": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Richmond": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Rider": {
+      "wins": 1,
+      "losses": 4,
+      "games": 5
+    },
+    "Robert Morris": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Rutgers": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Sacramento State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Sacred Heart": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Saint Francis (PA)": {
+      "wins": 0,
+      "losses": 5,
+      "games": 5
+    },
+    "Saint Joseph's": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Saint Louis": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Saint Mary's (CA)": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Saint Peter's": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Sam Houston": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Samford": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "San Diego": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "San Diego State": {
+      "wins": 2,
+      "losses": 2,
+      "games": 4
+    },
+    "San Francisco": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "San Jose State": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Santa Clara": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Seattle": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Seton Hall": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Siena": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "South Alabama": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "South Carolina": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "South Carolina State": {
+      "wins": 0,
+      "losses": 6,
+      "games": 6
+    },
+    "South Carolina Upstate": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "South Dakota": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "South Dakota State": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "South Florida": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Southeast Missouri State": {
+      "wins": 1,
+      "losses": 4,
+      "games": 5
+    },
+    "Southeastern Louisiana": {
+      "wins": 1,
+      "losses": 4,
+      "games": 5
+    },
+    "Southern": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Southern California": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Southern Illinois": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "SIU Edwardsville": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Southern Indiana": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "Southern Methodist": {
+      "wins": 7,
+      "losses": 0,
+      "games": 7
+    },
+    "Southern Mississippi": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Southern Utah": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "St. Bonaventure": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "St. John's (NY)": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "St. Thomas": {
+      "wins": 5,
+      "losses": 3,
+      "games": 8
+    },
+    "Stanford": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Stephen F. Austin": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Stetson": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Stonehill": {
+      "wins": 2,
+      "losses": 5,
+      "games": 7
+    },
+    "Stony Brook": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Syracuse": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Tarleton State": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "TCU": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Temple": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "Tennessee": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Tennessee State": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "Tennessee Tech": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Tennessee-Martin": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Texas": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Texas A&M": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Texas A&M-Corpus Christi": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Texas Southern": {
+      "wins": 0,
+      "losses": 5,
+      "games": 5
+    },
+    "Texas State": {
+      "wins": 6,
+      "losses": 2,
+      "games": 8
+    },
+    "Texas Tech": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Texas-Rio Grande Valley": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "The Citadel": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "Toledo": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Towson": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Troy": {
+      "wins": 4,
+      "losses": 4,
+      "games": 8
+    },
+    "Tulane": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Tulsa": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "UAB": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "UC Davis": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "UC Irvine": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "UC Riverside": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "UC San Diego": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "UC Santa Barbara": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "UCF": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "UCLA": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "UNC Asheville": {
+      "wins": 2,
+      "losses": 3,
+      "games": 5
+    },
+    "UNC Greensboro": {
+      "wins": 1,
+      "losses": 5,
+      "games": 6
+    },
+    "UNC Wilmington": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "UT Arlington": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Utah": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Utah State": {
+      "wins": 6,
+      "losses": 0,
+      "games": 6
+    },
+    "Utah Tech": {
+      "wins": 4,
+      "losses": 4,
+      "games": 8
+    },
+    "Utah Valley": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "UTEP": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "UTSA": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Valparaiso": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Vanderbilt": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Vermont": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Villanova": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Virginia": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Virginia Commonwealth": {
+      "wins": 3,
+      "losses": 2,
+      "games": 5
+    },
+    "VMI": {
+      "wins": 3,
+      "losses": 5,
+      "games": 8
+    },
+    "Virginia Tech": {
+      "wins": 5,
+      "losses": 0,
+      "games": 5
+    },
+    "Wagner": {
+      "wins": 0,
+      "losses": 5,
+      "games": 5
+    },
+    "Wake Forest": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Washington": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Washington State": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Weber State": {
+      "wins": 2,
+      "losses": 4,
+      "games": 6
+    },
+    "West Georgia": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "West Virginia": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Western Carolina": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Western Illinois": {
+      "wins": 1,
+      "losses": 6,
+      "games": 7
+    },
+    "Western Kentucky": {
+      "wins": 4,
+      "losses": 0,
+      "games": 4
+    },
+    "Western Michigan": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    },
+    "Wichita State": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "William & Mary": {
+      "wins": 5,
+      "losses": 2,
+      "games": 7
+    },
+    "Winthrop": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Wisconsin": {
+      "wins": 4,
+      "losses": 1,
+      "games": 5
+    },
+    "Wofford": {
+      "wins": 4,
+      "losses": 2,
+      "games": 6
+    },
+    "Wright State": {
+      "wins": 3,
+      "losses": 3,
+      "games": 6
+    },
+    "Wyoming": {
+      "wins": 5,
+      "losses": 1,
+      "games": 6
+    },
+    "Xavier": {
+      "wins": 4,
+      "losses": 3,
+      "games": 7
+    },
+    "Yale": {
+      "wins": 6,
+      "losses": 1,
+      "games": 7
+    },
+    "Youngstown State": {
+      "wins": 3,
+      "losses": 4,
+      "games": 7
+    }
+  },
+  "participants": {
+    "Stan": [
+      "Arkansas State",
+      "Cleveland State",
+      "Colgate",
+      "Cornell",
+      "Dayton",
+      "Grand Canyon",
+      "Louisville",
+      "Memphis",
+      "Merrimack",
+      "Montana",
+      "Northern Kentucky",
+      "Purdue",
+      "South Florida",
+      "Toledo"
+    ],
+    "Brian": [
+      "Boise State",
+      "Colorado State",
+      "George Mason",
+      "Houston",
+      "Iowa",
+      "Maryland",
+      "North Texas",
+      "Southern Methodist",
+      "Tennessee",
+      "UC San Diego",
+      "North Carolina",
+      "West Virginia",
+      "Wichita State",
+      "Miami (OH)"
+    ],
+    "Andrew": [
+      "California Baptist",
+      "Bethune-Cookman",
+      "Buffalo",
+      "Georgia",
+      "Northern Colorado",
+      "South Alabama",
+      "Towson",
+      "Tarleton State",
+      "Utah Valley",
+      "Towson",
+      "Alabama",
+      "Jacksonville State",
+      "Santa Clara",
+      "St. Thomas"
+    ],
+    "Matt": [
+      "Auburn",
+      "Bradley",
+      "Lipscomb",
+      "Marist",
+      "Marquette",
+      "Nevada",
+      "New Mexico",
+      "Oregon",
+      "Oregon State",
+      "Texas Tech",
+      "Virginia Commonwealth",
+      "Michigan State",
+      "Arkansas",
+      "Mississippi"
+    ],
+    "Ryan": [
+      "Bowling Green",
+      "Cincinnati",
+      "Idaho",
+      "Loyola Marymount",
+      "Miami (FL)",
+      "Missouri",
+      "Navy",
+      "Northern Iowa",
+      "Siena",
+      "St. Bonaventure",
+      "Connecticut",
+      "Utah State",
+      "Wisconsin",
+      "Yale"
+    ],
+    "Tom": [
+      "Akron",
+      "Clemson",
+      "Duke",
+      "East Tennessee State",
+      "Iowa State",
+      "Marshall",
+      "Murray State",
+      "Oklahoma State",
+      "SIU Edwardsville",
+      "Saint Louis",
+      "Saint Mary's (CA)",
+      "Vanderbilt",
+      "Virginia Tech",
+      "Youngstown State"
+    ],
+    "Pete": [
+      "Brigham Young",
+      "Baylor",
+      "Creighton",
+      "Florida",
+      "Illinois",
+      "Kentucky",
+      "Little Rock",
+      "Maine",
+      "Radford",
+      "San Francisco",
+      "Southern California",
+      "St. John's (NY)",
+      "UCLA",
+      "Kansas"
+    ],
+    "Neel": [
+      "Boston University",
+      "College of Charleston",
+      "Florida Atlantic",
+      "Illinois State",
+      "James Madison",
+      "Michigan",
+      "Montana State",
+      "Princeton",
+      "Quinnipiac",
+      "Sam Houston",
+      "Samford",
+      "Stephen F. Austin",
+      "UC Santa Barbara",
+      "Villanova"
+    ],
+    "Kevin": [
+      "Arizona",
+      "Belmont",
+      "George Washington",
+      "Gonzaga",
+      "Hawaii",
+      "Indiana",
+      "Kennesaw State",
+      "Louisiana State",
+      "NC State",
+      "San Diego State",
+      "Troy",
+      "Virginia",
+      "Alabama",
+      "Wright State"
+    ],
+    "Jake": [
+      "Chattanooga",
+      "Furman",
+      "High Point",
+      "Iona",
+      "Kent State",
+      "Liberty",
+      "McNeese State",
+      "Norfolk State",
+      "Ohio",
+      "South Dakota State",
+      "Ohio State",
+      "UC Irvine",
+      "UNC Wilmington",
+      "Winthrop"
+    ]
+  }
+}

@@ -1,44 +1,144 @@
-# NCAA Basketball Pool Tracker 🏀 - Live ESPN Edition
+# NCAA Basketball Pool Tracker 🏀
 
-**Real-time tracking dashboard for NCAA Division I Men's Basketball draft pool - 2025-26 Season**
+Live tracking dashboard for NCAA Division I Men's Basketball draft pool - 2025-26 Season
+
+**Live Demo:** [View Tracker](https://yourusername.github.io/ncaa-pool-tracker/ncaa-pool-tracker-live.html)
 
 ---
 
 ## 🎯 Features
 
-- **✨ REAL-TIME ESPN DATA** - Fetches live from ESPN's free API
-- **🔄 One-Click Refresh** - Update all 138 teams instantly
-- **⏱️ Auto-Refresh** - Optional 5-minute automatic updates
-- **🏆 Live Leaderboard** - See rankings update in real-time
-- **📱 Mobile Responsive** - Works perfectly on all devices
-- **🎨 Team Logos** - ESPN team logos for major programs
-- **🚫 NO FILE UPLOADS** - Everything updates in browser
-- **⚡ Super Fast** - Direct ESPN API, no backend needed
+- **Real-Time Updates** - Auto-fetch team records from Sports Reference
+- **Live Leaderboard** - See rankings update instantly
+- **Auto-Refresh** - Optional 5-minute auto-updates
+- **Team Logos** - ESPN team logos for major programs
+- **Mobile Responsive** - Works on all devices
+- **Offline Capable** - Data cached in browser
+- **Manual Override** - Edit records if needed
+- **Export Data** - Download backups as JSON
 
 ---
 
 ## 🚀 Quick Start
 
-### View Your Tracker
+### Option 1: GitHub Pages (Recommended)
 
-**Your live tracker is at:**
-```
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
-```
+1. Fork this repository
+2. Go to Settings → Pages
+3. Set Source to "main" branch
+4. Your tracker will be live at: `https://yourusername.github.io/ncaa-pool-tracker/`
 
-Replace `YOUR-USERNAME` with your GitHub username and `YOUR-REPO-NAME` with your repository name.
+### Option 2: Download & Run Locally
 
-### How to Use
-
-1. **Open your tracker URL** in any browser
-2. **Click "Refresh from ESPN"** - Updates all teams in 3 seconds
-3. **View leaderboard** - Sorted by total wins
-4. **Click names** - See each person's 14 teams
-5. **Toggle "Auto-Refresh ON"** - Updates every 5 minutes automatically
+1. Download `ncaa-pool-tracker-live.html`
+2. Open in any web browser
+3. Click "Fetch Latest Data"
+4. Done!
 
 ---
 
-## 📊 Pool Details
+## 📊 Current Standings
+
+### 2025-26 Season
+
+| Rank | Name | Wins | Teams |
+|------|------|------|-------|
+| 🥇 | Tom | 71 | 14 |
+| 🥈 | Brian | 70 | 14 |
+| 🥉 | Ryan | 67 | 14 |
+| 4 | Kevin | 63 | 14 |
+| 5 | Andrew | 62 | 14 |
+| 6 | Jake | 56 | 14 |
+| 7 | Neel | 54 | 14 |
+| 8 | Matt | 54 | 14 |
+| 9 | Pete | 51 | 14 |
+| 10 | Stan | 49 | 14 |
+
+**Last Updated:** November 25, 2025  
+**Total Teams:** 140 (14 per person)
+
+---
+
+## 🎮 How to Use
+
+### Automatic Updates
+
+1. Open `ncaa-pool-tracker-live.html`
+2. Click **"Fetch Latest Data"** button
+3. Wait 5-10 seconds for data to load
+4. Leaderboard updates automatically!
+
+**Optional:** Turn on "Auto-Refresh" for updates every 5 minutes
+
+### Manual Updates
+
+1. Click **"Manual Edit"** button
+2. Click on any participant's name
+3. Update win-loss records
+4. Click **"Done Editing"**
+
+### View Team Rosters
+
+- Click on any participant's name in the leaderboard
+- See all 14 teams with logos and records
+- Teams sorted by wins (highest first)
+
+---
+
+## 📁 Files
+
+### Main Files
+
+- **`ncaa-pool-tracker-live.html`** - Auto-updating version (recommended)
+- **`ncaa-pool-tracker.html`** - Manual-only version (backup)
+- **`index.html`** - Redirects to live version
+- **`README.md`** - This file
+
+### Documentation
+
+- **`LIVE-TRACKER-GUIDE.md`** - Comprehensive usage guide
+- **`TRACKER-GUIDE.md`** - Manual tracker guide
+
+### Data
+
+- **`pool_data.json`** - Initial draft data (backup)
+
+---
+
+## 🔧 Technical Details
+
+### Data Source
+
+Real-time data fetched from:
+```
+https://www.sports-reference.com/cbb/seasons/men/2026-school-stats.html
+```
+
+### Technology Stack
+
+- **Frontend:** React 18 (via CDN)
+- **Styling:** Tailwind CSS
+- **Data Storage:** Browser localStorage
+- **CORS Proxy:** allorigins.win
+- **Logos:** ESPN CDN
+
+### Browser Support
+
+- ✅ Chrome/Edge (recommended)
+- ✅ Firefox
+- ✅ Safari
+- ✅ Mobile browsers
+
+### Data Privacy
+
+- All data stored locally in browser
+- No server-side storage
+- No tracking or analytics
+- Export your own backups
+
+---
+
+## 🏆 Draft Details
 
 ### Participants (10)
 
@@ -47,8 +147,8 @@ Andrew • Brian • Jake • Kevin • Matt • Pete • Ryan • Stan • Tom 
 ### Draft Format
 
 - **Snake Draft** - Order reverses each round
-- **14 Rounds** - 14 teams per person  
-- **138 Total Teams** - NCAA Division I
+- **14 Rounds** - 14 teams per person
+- **140 Total Teams** - Across all NCAA Division I
 
 ### Scoring
 
@@ -58,224 +158,136 @@ Andrew • Brian • Jake • Kevin • Matt • Pete • Ryan • Stan • Tom 
 
 ---
 
-## 🎮 Usage Guide
+## 🛠️ Customization
 
-### Daily Updates
-1. Open tracker
-2. Click "Refresh from ESPN"
-3. Wait 3 seconds
-4. View updated standings!
+### Update Participant Rosters
 
-### Game Day Monitoring
-1. Open tracker
-2. Toggle "Auto-Refresh ON"
-3. Leave browser tab open
-4. Automatically updates every 5 minutes
-5. Check throughout the day
+Edit the `pool_data.json` file or use the tracker's manual edit feature.
 
-### On Mobile
-- Works perfectly on phones/tablets
-- Add to home screen for app-like experience
-- One-tap refresh anytime
+### Add Team Logos
 
----
+Add ESPN IDs to the `teamLogoMap` object in the HTML:
 
-## 🔧 Technical Details
-
-### Data Source
-**ESPN's Free API:**
-```
-https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams?limit=400
+```javascript
+const teamLogoMap = {
+    'Team Name': ESPN_ID,
+    // Example:
+    'Duke': 150,
+    'Kentucky': 96
+};
 ```
 
-### Technology Stack
-- **Frontend:** React 18 (via CDN)
-- **Styling:** Tailwind CSS
-- **Data:** ESPN API (no API key needed!)
-- **Hosting:** GitHub Pages (free)
+Find ESPN IDs at: `https://www.espn.com/mens-college-basketball/teams`
 
-### Browser Support
-- ✅ Chrome/Edge (recommended)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Mobile browsers (iOS/Android)
+### Customize Styling
+
+The tracker uses Tailwind CSS. Modify classes in the HTML to change appearance.
 
 ---
 
-## 💡 Pro Tips
+## 📱 Mobile Usage
 
-### Game Day Strategy
-1. Morning: Open tracker, click "Refresh from ESPN"
-2. Enable: Auto-Refresh ON
-3. Monitor: Leave tab open all day
-4. Evening: Final refresh for daily totals
+The tracker is fully responsive:
 
-### Weekly Check-In
-1. Sunday evening: Check after weekend games
-2. Click refresh: Get latest standings
-3. Share: Post leaderboard in group chat
+- **Portrait mode:** Single column layout
+- **Landscape mode:** Multi-column grid
+- **Touch-friendly:** Large tap targets
+- **Fast loading:** Minimal assets
 
 ---
 
-## ❓ Troubleshooting
+## 🔄 Update Frequency
 
-### "Failed to fetch from ESPN"
-**Rare, but if it happens:**
-1. Wait 30 seconds, try again
+### Recommended
+
+- **Game Days:** Check 1-2 times (morning & evening)
+- **Off Days:** Once per day or every few days
+- **March:** Multiple times daily!
+
+### Auto-Refresh
+
+- Turn ON during game days
+- Turn OFF to save data/battery
+- Updates every 5 minutes when ON
+
+---
+
+## 🐛 Troubleshooting
+
+### "Failed to fetch" Error
+
+**Solutions:**
+1. Wait 1-2 minutes and try again
 2. Check internet connection
 3. Try different browser
-4. Clear browser cache: Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac)
+4. Use manual edit as backup
 
-**99% of the time, ESPN API works perfectly!**
+### Data Not Updating
 
-### Data looks wrong?
-1. Click "Refresh from ESPN" again
-2. Spot-check a few teams on ESPN.com
-3. Compare records to verify
+**Checks:**
+1. Status message shows success?
+2. Last updated time changed?
+3. Clear browser cache (Ctrl+Shift+R)
 
-### Auto-refresh not working?
-1. Check toggle shows "Auto-Refresh ON"
-2. Keep browser tab active (not minimized)
-3. Try manual refresh button instead
+### Team Names Don't Match
 
----
-
-## 🔐 Privacy & Security
-
-- **No data collection** - Everything client-side
-- **No cookies** - Browser only
-- **No tracking** - Pure functionality
-- **No backend** - Just HTML + ESPN API
-- **Open source** - Inspect the code yourself
+Some teams may have different names on Sports Reference. Use manual edit for those teams.
 
 ---
 
-## 📱 Mobile App Experience
+## 📊 Statistics
 
-### iOS/Android: Add to Home Screen
-
-1. Open tracker in Safari/Chrome
-2. Tap Share button
-3. "Add to Home Screen"
-4. Now it opens like an app!
+- **Total Teams Tracked:** 140
+- **Conferences Covered:** All 32 Division I
+- **Update Frequency:** Real-time (when fetched)
+- **Data Points:** ~2,000+ (teams × games)
 
 ---
 
-## 🎯 Why This is Better
+## 🤝 Contributing
 
-### vs Manual Entry
-- ✅ 3 seconds vs 10 minutes to update
-- ✅ No human error
-- ✅ Real-time updates
-- ✅ Auto-refresh capability
+Found a bug or have a suggestion?
 
-### vs Python Scripts
-- ✅ No Python installation
-- ✅ No file uploads to GitHub
-- ✅ Works in browser only
-- ✅ Updates instantly with one click
-
-### vs Sports Reference Scraping
-- ✅ ESPN doesn't block requests
-- ✅ 99% reliability vs 30%
-- ✅ Faster response times
-- ✅ Better structured data
+1. Open an issue
+2. Submit a pull request
+3. Share your improvements!
 
 ---
 
-## 🆚 Comparison Table
+## 📄 License
 
-| Feature | Manual Edit | Python Script | ESPN Live ⭐ |
-|---------|-------------|---------------|--------------|
-| Update Time | 10 min | 3 min + upload | **3 seconds** |
-| Real-Time | ❌ | ❌ | **✅ Yes** |
-| Auto-Refresh | ❌ | ❌ | **✅ Yes** |
-| Setup | None | Python | **None** |
-| File Uploads | None | Every time | **None** |
-| Reliability | 100% | 70% | **99%** |
-| Works Offline | ✅ | ✅ | ❌ |
-
----
-
-## 🎨 Customization
-
-### Change Pool Name
-1. Edit `ncaa-pool-tracker-espn-live.html`
-2. Find: `<h1 className="text-4xl font-black mb-1">🏀 NCAA Basketball Pool</h1>`
-3. Change "NCAA Basketball Pool" to your pool name
-4. Commit changes
-5. Site updates automatically
-
-### Adjust Auto-Refresh Time
-1. Edit `ncaa-pool-tracker-espn-live.html`
-2. Find: `300000` (= 5 minutes in milliseconds)
-3. Change to:
-   - `180000` = 3 minutes
-   - `600000` = 10 minutes
-   - `60000` = 1 minute
-4. Commit changes
-
----
-
-## 📞 Support
-
-**Questions?** 
-- Check this README
-- Contact pool organizer
-
-**Working great?** 
-- Share the URL with all participants!
-- Bookmark it for easy access
+MIT License - Feel free to use and modify!
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **ESPN** - Free API access
+- **Sports Reference** - Data source
+- **ESPN** - Team logos
+- **Tailwind CSS** - Styling framework
 - **React** - UI framework
-- **Tailwind CSS** - Styling
-- **GitHub Pages** - Free hosting
 
 ---
 
-## 📄 Files in This Repository
+## 📞 Contact
 
-### Required Files
-1. **index.html** - Landing page with redirect
-2. **ncaa-pool-tracker-espn-live.html** - Main tracker (all functionality)
-3. **README.md** - This file
-4. **.gitignore** - Git configuration
+**Questions?** Open an issue or contact the pool organizer.
 
 ---
 
-## 🚀 Key Advantages
+## 🎯 Roadmap
 
-✅ **No Python needed** - Pure browser-based  
-✅ **No file uploads** - Updates in real-time  
-✅ **No API keys** - ESPN API is free  
-✅ **No rate limits** - Fetch as much as needed  
-✅ **Works anywhere** - Desktop, mobile, tablet  
-✅ **Super reliable** - ESPN API uptime is excellent  
-✅ **Zero maintenance** - Set it and forget it  
+### Potential Future Features
+
+- [ ] Historical data & trends
+- [ ] Head-to-head comparisons
+- [ ] Weekly win leaders
+- [ ] Conference breakdowns
+- [ ] Playoff predictions
+- [ ] Mobile app version
 
 ---
 
 **Built for the 2025-26 NCAA Men's Basketball Season**  
-**Powered by ESPN's Free API**  
-**Last Updated:** November 26, 2025  
-**Version:** 3.0 (Live ESPN Edition)
-
----
-
-## 📊 Quick Stats
-
-- **Participants:** 10
-- **Teams:** 138
-- **Update Time:** 3 seconds
-- **Cost:** FREE
-- **Maintenance:** None
-- **Reliability:** 99%+
-
----
-
-**Enjoy real-time tracking all season long!** 🏀🏆
+**Last Updated:** November 25, 2025  
+**Version:** 2.0
